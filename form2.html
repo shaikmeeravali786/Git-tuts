@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Two</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+
+        <label for="emailId">Email: </label>
+        <input type="email" id="emailId" name="emailID">
+        <br/>
+        <br/>
+
+        <label for="phoneNumber">Phone: </label>
+        <input type="tel" id="phoneNumber" name="phoneNumber">
+        <br/>
+        <br/>
+
+        <label for="fileUpload">Resume: </label>
+        <input type="file" id="fileUpload" name="fileUpload">
+        <br/>
+        <br/>
+
+        <!-- creation of counter -->
+        <label for="counter">Expireince (in years)</label>
+        <input type="number" id="counter" name="counter" min="0" max="50">
+
+
+        <fieldset>
+            <legend>Skills: </legend>
+
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+            <label for="checkbox1">HTML</label>
+            <br/>
+            <br/>
+            
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <label for="checkbox1">CSS</label>
+            <br/>
+            <br/>
+          
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+            <label for="checkbox1">JavaScript</label>
+        </fieldset>
+        <br/>
+        <!-- dropdown menu manam select use chesi rasthamu -->
+        <label for="eduactionType">Highest Education: </label>
+        <select name="educationType" id="eduactionType">
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+
+        </select>
+        <br/>
+        <fieldset>
+            <legend>Availability: </legend>
+
+            <label for="radio1">Full-Time</label>
+            <input type="radio" id="radio1" name="radio">
+            <br/>
+
+            <label for="radio2">Full-Time</label>
+            <input type="radio" id="radio2" name="radio">
+            <br/>
+
+        </fieldset>
+
+        <!-- manam textarea use chesi comments leka space section ni develop chestham -->
+
+        <label for="textarea1">Comments: </label>
+        <br/>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+
+
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html> 

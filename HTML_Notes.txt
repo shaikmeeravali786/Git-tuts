@@ -1,0 +1,29 @@
+HTML::
+=======
+what is html?
+Hyper text markup language
+
+HTML :: work :: Structure of gui
+CSS:: work :: Style or apperence
+JS:: work :: Brain (Building the logic)
+
+
+
+
+HTML:: 
+html work is providing labeling to webpage
+2.structure 
+3.Description 
+
+IDE::
+vscode
+sublime
+xcode
+
+<!DOCTPE html>
+means mana code ni html5 rasthunam ani ardham 
+
+
+<head> -- meta data , seo , title data ni manam head lopala rayali
+<body> -- tag lo manam paragraphs ni and web page lo unedhi motham body lo rasthunam 
+
